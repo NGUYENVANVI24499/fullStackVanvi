@@ -1,0 +1,36 @@
+html{
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+  transition: all .2 linear;
+}
+
+*::after,
+*::after{
+  box-sizing: border-box;
+}
+input,section,textarea,button{
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+input{
+  line-height: normal;
+  border: none;
+}
+label,button{
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+}
+
+button{
+  outline: none;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+}
